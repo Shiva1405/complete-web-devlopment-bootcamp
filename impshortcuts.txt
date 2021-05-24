@@ -2,6 +2,7 @@ comments in html -ctrl + /
 copying line down- ctrl + D
 word wrap - shift + alt + y
 to jump into the new- ctrl + enter
+mutiple cursor -alt + click where want another cursor  
 emmet shortcuts-
 lorem(no.){example- lorem4} used for different print random words
 p*no.{example- p*3}
