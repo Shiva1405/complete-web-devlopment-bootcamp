@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+<style>
+    #element{
+        color: yellow;
+        background-color: aqua;
+    }
+    /*  this is how an elements is used as selector in css */
+    p{
+        border: 2px solid green;
+        color: red;
+        background-color: antiquewhite;
+    }
+
+    /*  this is how a tag is used as id-selector */
+    .bgBlue{
+        color: blue;
+        background-color: chocolate;
+    }
+    /* this is class selector */
+footer, span{
+    color: crimson;
+    background-color: darkmagenta;
+}
+/* this is grouping selector     */
+</style>  
+</head>
+<body>
+    <h3>CSS selectors</h3>
+    <p>This is element selector</p>
+    <p id="element">this is an element selector</p>
+    <p class="bgBlue">this is a class selector</p>
+    <div>
+        <span>this is span</span>
+        <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptate.</footer>
+
+    </div>
+</body>
+</html>
